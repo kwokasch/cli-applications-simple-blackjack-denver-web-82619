@@ -30,7 +30,7 @@ def initial_round
   return sum
 end
 
-def hit? (total)
+def hit? (card_total)
   prompt_user
   user_input = get_user_input
   
